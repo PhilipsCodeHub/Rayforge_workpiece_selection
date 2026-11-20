@@ -1,0 +1,20 @@
+name: workpiece_selection
+display_name: "Workpiece Selection"
+description: "Choose which workpieces a workflow step processes"
+long_description: |
+  Adds an editable **Workpiece Selection** tab to step settings.
+
+  - Tick the workpieces of the step's layer that this step should process
+  - Uses Rayforge's built-in per-step workpiece filter, so the selection
+    is saved with the project and supports undo and redo
+  - Currently available for the **Contour** operation
+api_version: 20
+url: https://github.com/PhilipsCodeHub/Rayforge_workpiece_selection
+requires:
+  - laser_essentials
+author:
+  name: "Philip"
+provides:
+  frontend: "workpiece_selection.frontend"
+license:
+  name: "MIT"
